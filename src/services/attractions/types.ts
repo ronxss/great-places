@@ -4,6 +4,7 @@ export type PutAttractions = {
     localization: string;
     city: string;
     state: string;
+    inclusionDate: Date;
 }
 export type PostAttractions = {
     name: string;
@@ -11,4 +12,5 @@ export type PostAttractions = {
     localization: string;
     city: string;
     state: string;
+    inclusionDate: Date;
 }

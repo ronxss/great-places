@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import AppRoutes from './routes';
+import { CssBaseline } from '@mui/material'
+import Loading from './components/loading'
 
 function App() {
   return (
-    <AppRoutes/>
+    <Suspense fallback={<Loading />}>
+      <CssBaseline />
+      <AppRoutes />
+    </Suspense>
   );
 }
 
