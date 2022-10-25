@@ -1,4 +1,4 @@
-export const estados: Estado[] = [
+export const states: States[] = [
     { sigla: 'AC', nome: 'Acre' },
     { sigla: 'AL', nome: 'Alagoas' },
     { sigla: 'AP', nome: 'Amapá' },
@@ -28,7 +28,7 @@ export const estados: Estado[] = [
     { sigla: 'TO', nome: 'Tocantins' }
 ]
 
-interface Estado {
+interface States {
     sigla: string
     nome: string
 }

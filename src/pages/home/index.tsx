@@ -23,25 +23,31 @@ const Home = () => {
         { field: 'id', headerName: 'ID', width: 90 },
         {
           field: 'name',
-          headerName: 'Name',
+          headerName: 'Nome',
           width: 150,
           editable: false,
         },
         {
           field: 'description',
-          headerName: 'Description',
+          headerName: 'Descrição',
           width: 150,
           editable: false,
         },
         {
           field: 'localization',
-          headerName: 'Localization',
+          headerName: 'Localização',
           width: 110,
           editable: false,
         },
         {
+            field: 'state',
+            headerName: 'Estado',
+            width: 160,
+            editable: false
+          },
+        {
           field: 'city',
-          headerName: 'City',
+          headerName: 'Cidade',
           width: 160,
           editable: false
         },
